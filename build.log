@@ -1,0 +1,108 @@
+407 INFO: PyInstaller: 6.14.2, contrib hooks: 2025.5
+407 INFO: Python: 3.13.3
+423 INFO: Platform: Windows-11-10.0.26200-SP0
+424 INFO: Python environment: C:\Python313
+425 INFO: wrote D:\projects\local_aI\LocalAI Assistant.spec
+433 INFO: Module search paths (PYTHONPATH):
+['D:\\projects\\local_aI',
+ 'C:\\Python313\\python313.zip',
+ 'C:\\Python313\\DLLs',
+ 'C:\\Python313\\Lib',
+ 'C:\\Python313',
+ 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages',
+ 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32',
+ 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\win32\\lib',
+ 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\Pythonwin',
+ 'C:\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\setuptools\\_vendor',
+ 'D:\\projects\\local_aI']
+935 INFO: Appending 'datas' from .spec
+935 INFO: checking Analysis
+935 INFO: Building Analysis because Analysis-00.toc is non existent
+935 INFO: Running Analysis Analysis-00.toc
+936 INFO: Target bytecode optimization level: 0
+936 INFO: Initializing module dependency graph...
+936 INFO: Initializing module graph hook caches...
+1038 INFO: Analyzing modules for base_library.zip ...
+1962 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+2038 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+3523 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5222 INFO: Caching module dependency graph...
+5249 INFO: Looking for Python shared library...
+5255 INFO: Using Python shared library: C:\Python313\python313.dll
+5255 INFO: Analyzing D:\projects\local_aI\app\main.py
+5259 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5384 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+5496 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+6595 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+7269 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+8037 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+8171 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+8340 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+8481 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8483 INFO: SetuptoolsInfo: initializing cached setuptools info...
+11318 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+11404 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+12669 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13049 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13782 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+14200 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14325 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14461 INFO: Processing standard module hook 'hook-markdown.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14881 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+14882 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14910 INFO: Processing standard module hook 'hook-importlib_metadata.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+14991 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+15154 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+16137 INFO: Processing module hooks (post-graph stage)...
+16317 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+16401 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+16749 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+17622 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+18053 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+19243 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+21011 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+21435 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+21767 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25705 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+25790 INFO: Performing binary vs. data reclassification (150 entries)
+26430 INFO: Looking for ctypes DLLs
+26461 INFO: Analyzing run-time hooks ...
+26463 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+26472 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+26479 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+26486 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+26492 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\rthooks'
+26498 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+26506 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PyInstaller\\hooks'
+26524 INFO: Creating base_library.zip...
+26552 INFO: Looking for dynamic libraries
+27332 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\shiboken6', 'C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\numpy.libs']
+27332 INFO: Extra DLL search directories (PATH): ['C:\\Users\\chandan\\AppData\\Roaming\\Python\\Python313\\site-packages\\PySide6']
+28511 INFO: Warnings written to D:\projects\local_aI\build\LocalAI Assistant\warn-LocalAI Assistant.txt
+28548 INFO: Graph cross-reference written to D:\projects\local_aI\build\LocalAI Assistant\xref-LocalAI Assistant.html
+28598 INFO: checking PYZ
+28598 INFO: Building PYZ because PYZ-00.toc is non existent
+28598 INFO: Building PYZ (ZlibArchive) D:\projects\local_aI\build\LocalAI Assistant\PYZ-00.pyz
+29330 INFO: Building PYZ (ZlibArchive) D:\projects\local_aI\build\LocalAI Assistant\PYZ-00.pyz completed successfully.
+29352 INFO: checking PKG
+29352 INFO: Building PKG because PKG-00.toc is non existent
+29352 INFO: Building PKG (CArchive) LocalAI Assistant.pkg
+42302 INFO: Building PKG (CArchive) LocalAI Assistant.pkg completed successfully.
+42305 INFO: Bootloader C:\Users\chandan\AppData\Roaming\Python\Python313\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+42305 INFO: checking EXE
+42305 INFO: Building EXE because EXE-00.toc is non existent
+42305 INFO: Building EXE from EXE-00.toc
+42305 INFO: Copying bootloader EXE to D:\projects\local_aI\dist\LocalAI Assistant.exe
+42340 INFO: Copying icon to EXE
+42363 INFO: Copying 0 resources to EXE
+42363 INFO: Embedding manifest in EXE
+43207 INFO: Appending PKG archive to EXE
+43242 INFO: Fixing EXE headers
+47718 INFO: Building EXE from EXE-00.toc completed successfully.
+47721 INFO: Build complete! The results are available in: D:\projects\local_aI\dist
+Running: C:\Python313\python.exe -m PyInstaller --name LocalAI Assistant --onefile --windowed --icon D:\projects\local_aI\app\resources\icon.ico --add-data D:\projects\local_aI\app\ui\style.qss;app/ui --add-data D:\projects\local_aI\app\resources;app/resources --noconfirm D:\projects\local_aI\app\main.py
+
+Build complete: D:\projects\local_aI\dist\LocalAI Assistant.exe
+Double-click it to run the app — no Python or terminal required.
+Run `python make_shortcut.py` to add a Desktop/Start Menu shortcut with the app icon.

@@ -1,0 +1,7 @@
+PySide6
+requests
+markdown
+Pygments
+pyinstaller
+winshell
+pywin32
