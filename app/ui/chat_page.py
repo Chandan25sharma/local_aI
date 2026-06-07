@@ -47,6 +47,10 @@ class ChatPage(QWidget):
 
     sessions_changed = Signal()
 
+    @property
+    def current_session_id(self) -> str | None:
+        return self._session.id if self._session else None
+
     def __init__(self, registry: BackendRegistry, settings: AppSettings, parent=None):
         super().__init__(parent)
         self._registry = registry
@@ -355,7 +359,7 @@ class ChatPage(QWidget):
                 if is_first_reply:
                     session.derive_title_from_first_message()
                 session.save()
-                self._reload_sessions_keep_selection(session.id)
+                self.sessions_changed.emit()
         self._finish_stream()
 
     def _on_stream_failed(self, message: str) -> None:
@@ -382,17 +386,6 @@ class ChatPage(QWidget):
         self._send_btn.setVisible(not streaming)
         self._stop_btn.setVisible(streaming)
         self._input.setEnabled(not streaming)
-
-    def _reload_sessions_keep_selection(self, session_id: str) -> None:
-        self._session_list.blockSignals(True)
-        self._session_list.clear()
-        for session in list_sessions():
-            item = QListWidgetItem(session.title or "New chat")
-            item.setData(Qt.UserRole, session.id)
-            self._session_list.addItem(item)
-            if session.id == session_id:
-                self._session_list.setCurrentItem(item)
-        self._session_list.blockSignals(False)
 
     # ------------------------------------------------------------------
     # Thread rendering helpers
